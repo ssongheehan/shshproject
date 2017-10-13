@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body{
+	background-color: #737373;
+}
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set gray background color and 100% height */
+    .left {
+
+      
+    }
+    
+    #myScrollspy{
+      padding-top: 20px;
+      width: 140px;
+     background-color: #333333;
+      height: 1000px;
+    }
+    #RightScrollspy{
+  	  padding-top: 20px;
+    }
+    
+    .main{
+		height: 1500px;
+		background-color: white;
+		overflow: auto;
+	}
+	.mainTop{
+		background-color: #404040;	
+		padding: 15px;
+	}
+	.mainBottom{
+		background-color: #404040;	
+	}
+	
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* 스크롤 고정하기위해 꼭 필요함 */
+     .affix {
+      top: 0px;
+ 	 }
+ 	 .leftList{
+ 	 	background-color: #404040;		
+		
+ 	 }
+	 .leftList a{
+	 	color: white;
+	 	font-weight: bold;
+	 	text-decoration: none;
+	 }
+	.logo{
+		height: 40px;
+		text-align: center;
+	}
+	.logo a{
+		color: purple;
+	 	font-weight: bold;
+	 	text-decoration: none;
+	 	font-size: 2em;
+	}
+	
+	.setMainImg{
+		width: auto;
+	}
+	.setMainImg a img{
+		margin-top: 8px;
+		margin-left: 8px;
+		margin-bottom: 8px;
+		width: 150px;
+		height: 200px;
+	}
+	.imgDiv {
+		margin-left: 105px;
+	}
+
+ 
